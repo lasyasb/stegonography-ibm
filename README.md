@@ -1,5 +1,5 @@
 This repository contains Python scripts for encrypting and decrypting secret messages within images using steganography. The scripts allow you to hide a message in an image and later extract it using a passcode.
-Files Included
+### Files Included
 
 
     encryption.py: Encrypts a secret message into an image.
@@ -8,7 +8,7 @@ Files Included
 
     stegocode.py: Combines both encryption and decryption functionalities in a single script.
 
-Requirements
+### Requirements
 
     Python 3.x
 
@@ -16,13 +16,13 @@ Requirements
 
     OS library (for opening the image)
 
-To install the required libraries, run:
+### To install the required libraries, run:
 bash
 
 
 pip install opencv-python
 
-Usage
+### Usage
 1. Encryption (encryption.py)
 
 This script hides a secret message in an image. The encrypted image is saved as encryptedImage.jpg.
@@ -123,8 +123,8 @@ Enter the passcode to decrypt the message: mypassword
 Decrypted message: Hello, World!
 
 
-License
+### License
 
-This project is open-source and available under the MIT License. Feel free to modify and distribute it as needed.
+This project is open-source . Feel free to modify and distribute it as needed.
 
 For any questions or issues, please open an issue in the repository or contact the author.
